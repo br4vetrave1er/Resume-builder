@@ -59,7 +59,7 @@ you can change or tweak with these setting as you like as there are many option 
   Chat-bot Page
   ![picture alt]( images/page-2.png )
 
-  [![Watch this video] (https://drive.google.com/file/d/1c97vJA-Amh-PiQLhWuzdEgiQLdVvWul3/view?usp=drive_link)]
+  [![Watch this video]](https://drive.google.com/file/d/1c97vJA-Amh-PiQLhWuzdEgiQLdVvWul3/view?usp=drive_link)
 ### Installation & Usage
 1. Clone the GitHub repository.
     ```
