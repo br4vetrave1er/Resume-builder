@@ -51,6 +51,9 @@ you can change or tweak with these setting as you like as there are many option 
   Here is a image which i found very heplful
   <img src="https://img-blog.csdnimg.cn/04865f1f428741a0bf816d88c153fd01.png">
 
+
+### Application Demonstration
+  ![picture alt]( pitures/pic-1.png )
 ### Installation & Usage
 1. Clone the GitHub repository.
     ```
