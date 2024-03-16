@@ -53,7 +53,7 @@ you can change or tweak with these setting as you like as there are many option 
 
 
 ### Application Demonstration
-  ![picture alt]( pitures/pic-1.png )
+  ![picture alt]( images/page-1.png )
 ### Installation & Usage
 1. Clone the GitHub repository.
     ```
