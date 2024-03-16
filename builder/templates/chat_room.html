@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/chatbot.css' %}">
+{% endblock %}
+
+{% block body %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 res-container">
+                    <div class="resume-data">
+                        <iframe src="{% url 'get-pdf' %}" width="100%" height="100%" frameborder="0"></iframe>
+                    </div>
+                
+            </div>
+            <div class="col-4 border border-2 border-primary chat-container d-flex flex-column" style="border: black;">
+                        <div id="chat-messages">
+                            <div class="message bot-message">
+                                <p>Hi, I am a chatbot designed to curate all your need to build your resume.</p>
+                                <p> So that you can get your dream job without any hassle.</p>
+                                <p>How can i help in improving the resume you uploaded. Ask me anything?</p>
+                            </div>
+                            
+                        </div>
+                        <form id="message-form" >
+                      <div class="mb-3 input-wrapper">
+                        <input type="text" id="user-input" class="form-control" placeholder="Enter your question">
+                        <button type="button" id="user-response" onclick="sendMessage()" class="btn btn-primary">Send</button>
+                      </div>
+                    </form>
+                    </div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/chat-room.js' %}"></script>
+{% endblock %}

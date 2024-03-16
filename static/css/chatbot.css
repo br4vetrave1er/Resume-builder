@@ -1,0 +1,116 @@
+html, body {
+    height: 100%;
+    background-image: url("/static/images/background.jpg");
+    background-size: cover;
+}
+.container-fluid, .row {
+    height: 90%;
+    justify-content: center;
+}
+.res-container , .chat-container{
+    border-radius: 8px;
+    height: 100%;
+}
+
+.chat-container {
+    backdrop-filter: blur(0.1rem);
+}
+
+.chat-header {
+background-color: #8F2400;
+color: #cce5ff;
+padding: 15px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+text-align: center;
+backdrop-filter: blur(0.1rem);
+}
+
+.resume-data {
+padding: 10px;
+height: 100%;
+}
+
+#chat-messages {
+flex-grow: 1;
+overflow-y: auto;
+padding: 15px;
+}
+
+.message {
+background-color: #f0f0f0;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+
+.user-message {
+background-color: #cce5ff;
+text-align: right;
+float: right;
+}
+
+.bot-message {
+background-color: #d4edda;
+float: left;
+}
+
+#message-form {
+margin-top: auto;
+}
+
+.input-wrapper {
+padding: 15px;
+position: relative;
+display: inline-block;
+border-top: 1px solid #d4edda;
+border-width: 100%;
+width: 100%;
+
+}
+
+.input-wrapper input[type="text"] {
+padding: 10px;
+border-radius: 4px;
+margin-right: 10px;
+/* align-self: flex-end; */
+}
+
+.input-wrapper button {
+padding: 10px 15px;
+position: absolute;
+top: 50%;
+right: 10px;
+transform: translateY(-50%);
+border: none;
+cursor: pointer;
+}
+.message p {
+margin: 0;
+}
+
+.message .meta {
+font-size: 12px;
+color: #ce2a2a;
+}
+
+.message .meta span {
+margin-left: 10px;
+}
+
+.message .meta.user {
+text-align: right;
+}
+
+.message .meta.bot {
+text-align: left;
+}
+
+.message.timestamp {
+font-size: 11px;
+color: #999;
+text-align: center;
+}
+.resume-data {
+padding: 10px;
+}
